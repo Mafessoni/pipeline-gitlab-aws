@@ -1,31 +1,42 @@
 # pipeline-gitlab-aws
 
-```PARA INSTALAR O RUNNER NO SEU GITLAB```
+## PARA INSTALAR O RUNNER NO SEU GITLAB
 
 https://docs.gitlab.com/runner/install/linux-manually.html
 Using binary file
 
-bash sudo chmod +x /usr/local/bin/gitlab-runner
+```bash 
+sudo chmod +x /usr/local/bin/gitlab-runner
+```
 
-sudo useradd --comment 'GitLab Runner' --create-home gitlab-runner --shell /bin/bash
+```bash
+ sudo useradd --comment 'GitLab Runner' --create-home gitlab-runner --shell /bin/bash
+```
 
+```bash
 sudo gitlab-runner install --user=gitlab-runner --working-directory=/home/gitlab-runner
+```
 
+```bash
 sudo gitlab-runner start
+```
 
 Para adicionar o runner ao seu projeto:
 sudo gitlab-runner register
 Utilize a URL do seu gitlab e o token gerado por ele
 
 Depois desse passo execute o comando:
+```bash
 gitlab-runner verify
-
+```
 Caso precise execute novamente:
 sudo gitlab-runner start
 
 
 ```CONFIGURAÇÕES DO GIT-RUNNER```
+```bash
 nano /etc/gitlab-runner/config.toml
+```
 
 {
 concurrent = 1
