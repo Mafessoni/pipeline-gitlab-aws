@@ -33,12 +33,12 @@ Caso precise execute novamente:
 sudo gitlab-runner start
 
 
-```CONFIGURAÇÕES DO GIT-RUNNER```
+## CONFIGURAÇÕES DO GIT-RUNNER
+
 ```bash
 nano /etc/gitlab-runner/config.toml
 ```
 
-{
 concurrent = 1
 check_interval = 0
 shutdown_timeout = 0
@@ -65,4 +65,4 @@ shutdown_timeout = 0
 
   [runners.cache]
 	MaxUploadedArchiveSize = 0
-}
+
