@@ -10,7 +10,7 @@ sudo chmod +x /usr/local/bin/gitlab-runner
 ```
 
 ```bash
- sudo useradd --comment 'GitLab Runner' --create-home gitlab-runner --shell /bin/bash
+sudo useradd --comment 'GitLab Runner' --create-home gitlab-runner --shell /bin/bash
 ```
 
 ```bash
