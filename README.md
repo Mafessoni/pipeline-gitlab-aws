@@ -48,8 +48,7 @@ shutdown_timeout = 0
 
 [[runners]]
   name = "NOMEDOSEURUNNER"
-  url = "http://seugitlab.com/"
-  id = 51
+  url = "http://seugitlab.com/"  
   token = "TOKEN_RUNNER"
   token_obtained_at = 2023-10-26T22:20:47Z
   token_expires_at = 0001-01-01T00:00:00Z
