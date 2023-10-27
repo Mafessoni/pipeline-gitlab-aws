@@ -47,7 +47,7 @@ shutdown_timeout = 0
   session_timeout = 1800
 
 [[runners]]
-  name = "conxpert-server"
+  name = "NOMEDOSEURUNNER"
   url = "http://seugitlab.com/"
   id = 51
   token = "TOKEN_RUNNER"
