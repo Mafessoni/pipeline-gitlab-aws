@@ -22,7 +22,9 @@ sudo gitlab-runner start
 ```
 
 Para adicionar o runner ao seu projeto:
+```bash
 sudo gitlab-runner register
+```
 Utilize a URL do seu gitlab e o token gerado por ele
 
 Depois desse passo execute o comando:
