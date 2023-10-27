@@ -38,7 +38,7 @@ sudo gitlab-runner start
 ```bash
 nano /etc/gitlab-runner/config.toml
 ```
-
+```javascript
 concurrent = 1
 check_interval = 0
 shutdown_timeout = 0
@@ -66,3 +66,4 @@ shutdown_timeout = 0
   [runners.cache]
 	MaxUploadedArchiveSize = 0
 
+```
